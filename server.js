@@ -13,6 +13,6 @@ app.use("/", router);
 
 
 app.listen(process.env.PORT, () => {
-  console.log("server started at port 3000");
+  console.log(`server started at port ${process.env.PORT}`);
   
 });
